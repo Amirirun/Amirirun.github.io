@@ -4,11 +4,12 @@
 
 ## Grob-Planung
 
-> Fügen Sie hier ein Foto Ihres handgezeichnete Entwurfes ein, wie Ihre Start-Seite aussehen könnte.
+![WhatsApp Bild 2025-06-06 um 09 31 40_df645a2e](https://github.com/user-attachments/assets/d6281dbe-c87f-4ed9-987d-847d615a2489)
+
 
 ## 6.6
 
-✍️ Heute habe ich... (50-100 Wörter)
+Ich habe mir viele Gedanken über das Layout meiner Webseite gemacht. Zuerst habe ich den Header über die gesamte Breite gestaltet, dann die Inhalte in klare Bereiche gegliedert.
 
 ☝️ Vergessen Sie nicht, Ihr angepasstes `index.html` und eine Datei mit Ihren Texten hochzuladen.
 
