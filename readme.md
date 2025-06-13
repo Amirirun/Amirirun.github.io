@@ -15,10 +15,10 @@ Ich habe mir viele Gedanken über das Layout meiner Webseite gemacht. Zuerst hab
 
 ## 13.6
 
-- [ ] Bild von mir einfügen
-- [ ] Inhalt in die "über mich" Textbox einfügen
-- [ ] Grundsätzliches Design ausbessern
-- [ ] Wenn es klappt möchte ich noch eine funktion einbauen, mit der man die Textboxen ein und ausklappen kann.
+- [x] Hobbys hinzufügen
+- [x] Inhalt in die "über mich" Textbox einfügen
+- [x] Grundsätzliches Design ausbessern
+- [x] Wenn es klappt möchte ich noch eine funktion einbauen, mit der man die Textboxen ein und ausklappen kann.(hat nicht geklappt)
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
