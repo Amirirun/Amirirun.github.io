@@ -20,16 +20,14 @@ Ich habe mir viele Gedanken über das Layout meiner Webseite gemacht. Zuerst hab
 - [x] Grundsätzliches Design ausbessern
 - [x] Wenn es klappt möchte ich noch eine funktion einbauen, mit der man die Textboxen ein und ausklappen kann.(hat nicht geklappt)
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
+Heute habe ich meine Website im generellen überarbeitet. Ich habe ein Design ausgebessert und Text in die Textbox eingefügt.
 
 ## 20.7
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Bilder von Hobbys hinzufügen
+- [ ] Github zur Website hinzufügen
+- [ ] Animationen hinzufügen
+
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
