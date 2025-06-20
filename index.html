@@ -3,59 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mein Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Navid Amiri  Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <nav class="navbar">
-    <div class="logo">Navid Amiri</div>
-    <ul class="nav-links">
-      <li><a href="#about">Über mich</a></li>
-      <li><a href="#skills">Meine Hobbys</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-  </nav>
-  <section class="hero">
-    <h1>Navid Amiri</h1>
-    <p>Webentwickler mit Leidenschaft für sauberen Code und gutes Design.</p>
-    <a href="#contact" class="btn">Jetzt kontaktieren</a>
-  </section>
-</header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Navid Amiri</div>
+      <ul class="nav-links">
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#hobbies">Meine Hobbys</a></li>
+        <li><a href="#projects">Meine Projekte</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
 
-<main>
-  <section id="about" class="section">
-    <h2>Über mich</h2>
-    <p>Ich bin ein kreativer Entwickler mit Fokus auf Frontend-Technologien. Ich liebe es, moderne, benutzerfreundliche Webseiten zu bauen.</p>
-  </section>
+    <section class="hero">
+      <h1>Navid Amiri</h1>
+      <p>Webentwickler mit Leidenschaft für sauberen Code und gutes Design.</p>
+      <a href="#contact" class="btn">Jetzt kontaktieren</a>
+    </section>
+  </header>
 
-<section id="hobbies" class="section">
-  <h2>Meine Hobbys</h2>
-  <div class="hobby-grid">
-    <div class="hobby-card">
-      <img src="WhatsApp Bild 2025-06-13 um 10.19.10_cbf234ad.jpg" alt="Hobby 1 Bild" />
-      <h3>Motorrad fahren</h3>
-      <p>Ich liebe es, einfach mal auf dem Motorrad abzuschalten</p>
-    </div>
-    <div class="hobby-card">
-      <img src="hobby2.jpg" alt="Hobby 2 Bild" />
-      <h3>Joggen</h3>
-      <p>Gerne gehe ich mit meinem besten Freund Marvin joggen</p>
-    </div>
-    <div class="hobby-card">
-      <img src="hobby3.jpg" alt="Hobby 3 Bild" />
-      <h3>Angeln</h3>
-      <p>Oft gehe ich draussen an der Aare mit meinen Freunden angeln</p>
+  <main>
+
+    <section id="about" class="section">
+      <h2>Über mich</h2>
+      <p>
+        Ich bin Navid Amiri, ein IMS-Schüler, der gerade sein erstes Jahr abgeschlossen hat.
+        Ich liebe es zu programmieren, kreativ zu sein und technische Herausforderungen zu lösen.
+      </p>
+    </section>
+
+    <section id="hobbies" class="section">
+      <h2>Meine Hobbys</h2>
+      <div class="hobby-grid">
+        <div class="hobby-card">
+          <img src="Screenshot 2025-06-20 082810.png" alt="Motorrad fahren" />
+          <h3>Motorrad fahren</h3>
+          <p>Ich liebe es, einfach mal auf dem Motorrad abzuschalten.</p>
+        </div>
+        <div class="hobby-card">
+          <img src="WhatsApp Bild 2025-06-20 um 08.14.37_f35a6628.jpg" alt="Joggen" />
+          <h3>Joggen in den Bergen</h3>
+          <p>Gerne gehe ich mit meinem besten Freund Marvin in den Bergen joggen.</p>
+        </div>
+        <div class="hobby-card">
+          <img src="WhatsApp Bild 2025-06-20 um 07.50.11_8f24dfdf.jpg" alt="Angeln" />
+          <h3>Angeln</h3>
+          <p>Am See zu sitzen und die Ruhe zu genießen – das ist für mich Entspannung pur.</p>
+        </div>
+      </div>
+    </section>
+
+<section id="projects" class="section">
+  <h2>Meine Projekte</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="Screenshot 2025-06-20 100422.png" alt="TicTacToe Screenshot" class="project-img" />
+      <div class="project-content">
+        <h3>TicTacToe</h3>
+        <p> Ein selbstgemachtes TicTacToe in C# mit einem sehr coolen Design</p>
+        <a href="https://github.com/Amiri/TicTacToe" target="_blank" class="project-link">Zum GitHub-Projekt</a>
+      </div>
     </div>
   </div>
 </section>
 
+    <section id="contact" class="section contact">
+      <h2>Kontakt</h2>
+      <div class="social-links">
+        <a href="https://github.com/Amiri" target="_blank" class="github-link">
+          GitHub: github.com/Amiri
+        </a>
+      </div>
+      <form>
+        <input type="text" placeholder="Dein Name" required />
+        <input type="email" placeholder="Deine E-Mail" required />
+        <textarea placeholder="Deine Nachricht ..." required></textarea>
+        <button type="submit">Senden</button>
+      </form>
+    </section>
 
+  </main>
 
-
-
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

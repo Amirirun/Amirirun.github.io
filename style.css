@@ -1,10 +1,11 @@
 :root {
-  --primary-color: #00c8a0;
-  --dark-bg: #121212;
-  --light-bg: #f4f4f4;
-  --text-light: #eaeaea;
-  --text-dark: #333;
-  --card-bg: #ffffff;
+  --primary: #4caf93;
+  --bg: #f7f7f7;
+  --dark: #222;
+  --light: #666;
+  --card: #fff;
+  --radius: 16px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   --transition: all 0.3s ease;
 }
 
@@ -15,58 +16,47 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--light-bg);
-  color: var(--text-dark);
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--dark);
   line-height: 1.6;
 }
 
 header {
-  background: var(--dark-bg);
-  color: var(--text-light);
+  background: #1c1c1c;
+  color: white;
   padding-bottom: 60px;
 }
 
 .navbar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
+  list-style: none;
   gap: 25px;
 }
 
 .nav-links a {
-  color: var(--text-light);
+  color: white;
   text-decoration: none;
   font-weight: 500;
-  position: relative;
+  transition: var(--transition);
 }
 
-.nav-links a::after {
-  content: '';
-  height: 2px;
-  width: 0%;
-  background: var(--primary-color);
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  transition: width 0.3s ease;
-}
-
-.nav-links a:hover::after {
-  width: 100%;
+.nav-links a:hover {
+  color: var(--primary);
 }
 
 .hero {
@@ -75,29 +65,28 @@ header {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 1.2rem;
+  color: #ccc;
   margin-bottom: 25px;
 }
 
 .btn {
-  background: var(--primary-color);
-  color: #fff;
+  background: var(--primary);
+  color: white;
   padding: 12px 24px;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: var(--transition);
+  border-radius: var(--radius);
   text-decoration: none;
+  font-weight: bold;
+  transition: var(--transition);
 }
 
 .btn:hover {
-  background: #02ad8c;
+  background: #3a9e7a;
 }
 
 .section {
@@ -107,101 +96,180 @@ header {
 }
 
 .section h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
   text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--dark);
 }
 
 .section p {
-  font-size: 1.1rem;
   text-align: center;
   max-width: 700px;
-  margin: 0 auto 40px;
-  color: #555;
+  margin: 0 auto 30px;
+  color: var(--light);
 }
+
+/* Hobbys */
 .hobby-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  margin-top: 40px;
-  padding: 0 10px;
+  gap: 30px;
 }
 
 .hobby-card {
-  background: white;
-  border-radius: 20px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: var(--transition);
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
 }
 
 .hobby-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
 }
 
 .hobby-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
 .hobby-card h3 {
-  font-size: 1.4rem;
-  margin-top: 20px;
-  color: #00b48a;
-  font-weight: 600;
-  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 1.2rem;
+  color: var(--primary);
 }
 
 .hobby-card p {
-  font-size: 1rem;
-  padding: 15px 25px 30px;
-  text-align: center;
-  color: #444;
+  padding: 0 20px 30px;
+  color: var(--light);
 }
 
+/* Projekte */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
 
+.project-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  width:20%;
+  height: 100px;
+  object-fit: cover;
+  object-position: left;
+  display: block;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.project-card p {
+  margin-bottom: 15px;
+  color: var(--light);
+}
+
+.project-link {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+.project-link:hover {
+  background: #3a9e7a;
+}
+
+/* Kontakt */
+.contact form {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
 
 input, textarea {
   padding: 12px;
-  border-radius: 6px;
   border: 1px solid #ccc;
+  border-radius: var(--radius);
   font-size: 1rem;
-  resize: vertical;
 }
 
 button[type="submit"] {
-  background: var(--primary-color);
+  background: var(--primary);
   color: white;
-  border: none;
   padding: 12px;
-  border-radius: 6px;
+  border: none;
+  border-radius: var(--radius);
   font-weight: bold;
   cursor: pointer;
   transition: var(--transition);
 }
 
 button[type="submit"]:hover {
-  background: #02ad8c;
+  background: #3a9e7a;
 }
 
+.social-links {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-/* Responsivitätsoptimierung */
+.github-link {
+  display: inline-block;
+  background: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.github-link:hover {
+  background: #e0e0e0;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    gap: 15px;
   }
 
   .nav-links {
     flex-direction: column;
     gap: 10px;
-    margin-top: 10px;
   }
 
   .hero h1 {
