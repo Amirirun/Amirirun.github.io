@@ -24,12 +24,12 @@ Heute habe ich meine Website im generellen überarbeitet. Ich habe ein Design au
 
 ## 20.7
 
-- [ ] Bilder von Hobbys hinzufügen
-- [ ] Github zur Website hinzufügen
-- [ ] Animationen hinzufügen
+- [x] Bilder von Hobbys hinzufügen
+- [x] Github zur Website hinzufügen
+- [x] Projekt verlinken
 
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich noch meine Hobbys fertig aufgelistet sowie mein Github Account verlinkt und mein Projekt mit einem Bild hinzugefügt.
 
 ☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
