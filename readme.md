@@ -29,18 +29,18 @@ Heute habe ich meine Website im generellen überarbeitet. Ich habe ein Design au
 - [x] Projekt verlinken
 
 
-✍️ Heute habe ich noch meine Hobbys fertig aufgelistet sowie mein Github Account verlinkt und mein Projekt mit einem Bild hinzugefügt.
+ Heute habe ich noch meine Hobbys fertig aufgelistet sowie mein Github Account verlinkt und mein Projekt mit einem Bild hinzugefügt.
 
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
+
 
 ## 27.7 Abschluss
 (Ich werde keins übernehmen da ich schon bei Arbeitspackete eigentlich fertig hatte.)
-- [ ] Schullaufbahn einbauen
-- [ ] Footer mit Rechten und Namen erstellen
+- [x] Schullaufbahn einbauen
+- [x] Footer mit Rechten und Namen erstellen
 
-✍️ Heute habe ich... (50-100 Wörter)
+ Heute habe ich die letzten Feinschliffe vollzogen, die Schullaufbahn eingebaut und den Footer mit Rechten und Namen erstellt.
 
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
+
 
 ## Reflexion
 
