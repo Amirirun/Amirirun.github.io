@@ -35,8 +35,8 @@ Heute habe ich meine Website im generellen überarbeitet. Ich habe ein Design au
 
 ## 27.7 Abschluss
 (Ich werde keins übernehmen da ich schon bei Arbeitspackete eigentlich fertig hatte.)
-- [ ] Bild anpassen Projekt
-- [ ] Animation hinzufügen
+- [ ] Schullaufbahn einbauen
+- [ ] Footer mit Rechten und Namen erstellen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
